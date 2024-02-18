@@ -1,6 +1,6 @@
 # elocalhood-serviceprovider
 e-Localhood : A "From Local to Local" E-commerce Website (College Project)
-# Local Market
+# e-Localhood
 
 e-Localhood is a web application developed as a college project, aiming to facilitate "From Local to Local" e-commerce transactions. It allows users to buy and sell items directly within their local community, fostering a sense of connection and supporting local businesses.
 
