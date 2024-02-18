@@ -23,9 +23,6 @@ e-Localhood is a web application developed as a college project, aiming to facil
 
 We welcome contributions from anyone interested in improving Local Market! Please submit your changes via pull requests and adhere to the project's style guide. We are open to contributions of code, documentation, and design ideas.
 
-**License:**
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
 
 **Further Information:**
 
