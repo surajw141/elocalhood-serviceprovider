@@ -11,7 +11,7 @@ e-Localhood is a web application developed as a college project, aiming to facil
 
 **Technology Stack:**
 
-* Front-end: HTML, CSS, JavaScript (React)
+* Front-end: HTML, CSS, JavaScript, React
 * Back-end: Javascript (Node.js)
 * Database: MySQL
 
