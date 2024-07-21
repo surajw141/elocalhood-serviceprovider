@@ -1,0 +1,741 @@
+.e-localhood-logo-child {
+  height: 58px;
+  width: 237px;
+  position: relative;
+  background-color: #d9d9d9;
+  display: none;
+}
+.e-localhood {
+  height: 32px;
+  position: relative;
+  font-size: 24px;
+  display: inline-block;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+  z-index: 1;
+}
+.e-localhood-logo,
+.e-localhood-logo-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.e-localhood-logo {
+  cursor: pointer;
+  border: 0;
+  padding: 13px 31px;
+  background-color: #d9d9d9;
+  flex: 1;
+  align-items: center;
+}
+.e-localhood-logo:hover {
+  background-color: #bfbfbf;
+}
+.e-localhood-logo-wrapper {
+  width: 303px;
+  align-items: flex-start;
+  padding: 0 33px 13px;
+  box-sizing: border-box;
+}
+.confirmation-circle {
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  margin: 0 !important;
+  top: 160px;
+  left: 508px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  z-index: 1;
+}
+.seller-account-creation,
+.verify-tax-details {
+  position: relative;
+  font-size: 14px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: center;
+}
+.verify-tax-details {
+  align-self: stretch;
+}
+.verify-tax-details-frame {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px 0 0;
+  box-sizing: border-box;
+}
+.store-name {
+  align-self: stretch;
+  position: relative;
+  font-size: 14px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: center;
+}
+.verify-tax-details-frame1 {
+  width: 145px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 5px 0 0;
+  box-sizing: border-box;
+}
+.shipping-preferences {
+  align-self: stretch;
+  height: 41px;
+  position: relative;
+  font-size: 14px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.pickup-address-frame {
+  width: 163px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 23px 0 0;
+  box-sizing: border-box;
+}
+.bank-details {
+  width: 91px;
+  position: relative;
+  font-size: 14px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: center;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.seller-account-creation-frame {
+  margin: 0;
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  white-space: nowrap;
+}
+.search-i-f-s-c-code-input-fiel-child,
+.search-i-f-s-c-code-input-fiel-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 800px;
+  height: 14.7px;
+}
+.search-i-f-s-c-code-input-fiel-item {
+  width: 200px;
+}
+.arrow-icon,
+.search-i-f-s-c-code-input-fiel-inner {
+  position: absolute;
+  top: 0;
+  left: 400px;
+  width: 200px;
+  height: 14.7px;
+}
+.arrow-icon {
+  left: 200px;
+}
+.search-i-f-s-c-code-input-fiel {
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 800px;
+  height: 0;
+}
+.bank-input-field-i-f-s-c-code {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  z-index: 1;
+}
+.bank-input-field-i-f-s-c-code1,
+.bank-input-field-i-f-s-c-code2,
+.bank-input-field-i-f-s-c-code3,
+.bank-input-field-i-f-s-c-code4 {
+  position: absolute;
+  top: 0;
+  left: 397px;
+  border-radius: 50%;
+  background-color: #000;
+  border: 0 solid #000;
+  box-sizing: border-box;
+  width: 15px;
+  height: 15px;
+  z-index: 1;
+}
+.bank-input-field-i-f-s-c-code2,
+.bank-input-field-i-f-s-c-code3,
+.bank-input-field-i-f-s-c-code4 {
+  left: 598px;
+}
+.bank-input-field-i-f-s-c-code3,
+.bank-input-field-i-f-s-c-code4 {
+  left: 793px;
+  background-color: #d9d9d9;
+}
+.bank-input-field-i-f-s-c-code4 {
+  left: 196px;
+  background-color: #070707;
+  z-index: 2;
+}
+.confirmation-ellipses {
+  height: 15px;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+}
+.navigation-arrows {
+  width: 832px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 0 24px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.seller-account-creation-frame-parent {
+  width: 908px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2px;
+  max-width: 100%;
+}
+.registration-form-frame {
+  width: 1408px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 21px;
+  box-sizing: border-box;
+  max-width: 100%;
+}
+.bank-sp-registration-child {
+  align-self: stretch;
+  height: 1px;
+  position: relative;
+  border-top: 1px solid #838383;
+  box-sizing: border-box;
+}
+.add-your-bank {
+  margin: 0;
+  position: relative;
+  font-size: 25px;
+  font-weight: 700;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.e-localhood-needs-your,
+.money-you-make,
+.registration,
+.update-bank-details {
+  margin: 0;
+}
+.e-localhood-needs-your-container {
+  height: 72px;
+  position: relative;
+  font-size: 15px;
+  font-family: "Inria Sans";
+  color: #535353;
+  text-align: left;
+  display: inline-block;
+}
+.e-localhood-bank-instructions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 10px;
+  max-width: 100%;
+}
+.bank-account-input-field {
+  width: 804px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 20px 18px;
+  box-sizing: border-box;
+  max-width: 100%;
+  flex-shrink: 0;
+}
+.account-holder-name {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.bank-account-number-child {
+  height: 44px;
+  width: 387px;
+  position: relative;
+  background-color: #f4f4f4;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enter-name {
+  width: 81px;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-weight: 300;
+  font-family: "Inria Sans";
+  font-size: 16px;
+  background-color: transparent;
+  height: 19px;
+  position: relative;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.61);
+  text-align: left;
+  z-index: 1;
+}
+.bank-account-number,
+.i-f-s-c-code-field {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bank-account-number {
+  background-color: #f4f4f4;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  flex-direction: row;
+  align-items: center;
+  padding: 13px 17px 12px;
+}
+.i-f-s-c-code-field {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+}
+.bank-acoount-number {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.frame-child {
+  border: 1px solid #000;
+  outline: 0;
+  background-color: #f4f4f4;
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 232px;
+}
+.this-has-to {
+  position: relative;
+  font-size: 15px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.i-f-s-c-code-field1,
+.rectangle-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 2px;
+}
+.i-f-s-c-code-field1 {
+  gap: 5px;
+}
+.re-enter-bank-acoount {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.frame-item {
+  border: 1px solid #000;
+  outline: 0;
+  background-color: #f4f4f4;
+  align-self: stretch;
+  height: 44px;
+  position: relative;
+  box-sizing: border-box;
+  min-width: 232px;
+}
+.re-enter-bank-acoount-number-parent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 5px;
+}
+.account-holder-frame,
+.bank-account-frame {
+  display: flex;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.bank-account-frame {
+  width: 387px;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 17px;
+}
+.account-holder-frame {
+  width: 795px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px 4px;
+  box-sizing: border-box;
+}
+.ifsc-code {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.enter-i-f-s-c-code-child {
+  height: 44px;
+  width: 387px;
+  position: relative;
+  background-color: #f4f4f4;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: none;
+  max-width: 100%;
+}
+.enter-ifsc-code {
+  width: 113px;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-weight: 300;
+  font-family: "Inria Sans";
+  font-size: 17px;
+  background-color: transparent;
+  height: 20px;
+  position: relative;
+  font-style: italic;
+  color: rgba(0, 0, 0, 0.7);
+  text-align: left;
+  z-index: 1;
+}
+.enter-i-f-s-c-code {
+  align-self: stretch;
+  background-color: #f4f4f4;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 12px 17px;
+  max-width: 100%;
+}
+.search-ifsc-code {
+  position: relative;
+  font-size: 14px;
+  font-family: "Inria Sans";
+  color: #0084fe;
+  text-align: left;
+}
+.enter-i-f-s-c-code-parent,
+.ifsc-code-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.enter-i-f-s-c-code-parent {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: 10px;
+}
+.ifsc-code-parent {
+  width: 387px;
+  align-items: flex-start;
+  gap: 2px;
+}
+.first-vector-icon {
+  width: 4.5px;
+  height: 0.1px;
+  position: relative;
+  z-index: 1;
+}
+.fourth-vector-icon,
+.third-vector-icon {
+  position: absolute;
+  top: 0.2px;
+  left: 0.1px;
+  width: 5px;
+  height: 0.3px;
+  z-index: 1;
+}
+.fourth-vector-icon {
+  top: -0.6px;
+  left: 5.5px;
+  width: 2px;
+  height: 0.8px;
+}
+.second-vector {
+  width: 5px;
+  height: 1px;
+  position: relative;
+}
+.vectors-row {
+  height: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.bank-account-info {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0.4px;
+  right: 0.5px;
+  bottom: -0.5px;
+  left: -0.5px;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.enter-name-frame {
+  position: absolute;
+  top: 6.4px;
+  left: 5.4px;
+  width: 0.3px;
+  height: 2.9px;
+  z-index: 1;
+}
+.search-box {
+  width: 100%;
+  height: calc(100% - 2px);
+  position: absolute;
+  margin: 0 !important;
+  top: 0.5px;
+  right: 0;
+  bottom: 1.5px;
+  left: 0;
+}
+.reenter-bank-account-child,
+.reenter-bank-account-item {
+  position: absolute;
+  height: calc(100% - 3.2px);
+  width: calc(100% + 0.2px);
+  top: 3.1px;
+  right: -0.2px;
+  bottom: 0.1px;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  z-index: 1;
+}
+.reenter-bank-account-item {
+  height: calc(100% - 1.7px);
+  width: calc(100% - 0.6px);
+  top: 0.4px;
+  right: -0.3px;
+  bottom: 1.3px;
+  left: 0.9px;
+}
+.reenter-bank-account {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  margin: 0 !important;
+  top: 0.5px;
+  right: 0;
+  bottom: -0.5px;
+  left: 0;
+}
+.info-message-icon,
+.save-and-continue-btn {
+  position: absolute;
+  top: -0.5px;
+  left: 1.9px;
+  width: 1.3px;
+  height: 0.6px;
+  z-index: 2;
+}
+.save-and-continue-btn {
+  top: 0.8px;
+  left: 0.3px;
+  width: 0.1px;
+  height: 0.5px;
+}
+.fifteenth-vector-icon {
+  position: absolute;
+  top: 0;
+  left: 2.7px;
+  width: 0.4px;
+  height: 2px;
+  z-index: 3;
+}
+.vectors-container {
+  height: 2px;
+  width: 3px;
+  position: relative;
+}
+.i-f-s-c-code-input,
+.maharashtra-field {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1px 2px 0;
+  position: relative;
+}
+.i-f-s-c-code-input {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 4px 1px 1px;
+  gap: 1px;
+}
+.this-information-will {
+  position: relative;
+  font-size: 14px;
+  font-family: "Inria Sans";
+  color: #000;
+  text-align: left;
+}
+.form-container,
+.i-f-s-c-code-input-parent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.i-f-s-c-code-input-parent {
+  flex: 1;
+  align-items: center;
+  gap: 5px;
+}
+.form-container {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 1px 0 11px;
+  box-sizing: border-box;
+}
+.seller-account-creation-sectio-child {
+  width: 387px;
+  position: relative;
+  max-height: 100%;
+  display: none;
+  max-width: 100%;
+}
+.save-and-continue {
+  position: relative;
+  font-size: 16px;
+  font-family: "Inria Sans";
+  color: #fff;
+  text-align: left;
+  z-index: 1;
+}
+.seller-account-creation-sectio {
+  cursor: pointer;
+  border: 0;
+  padding: 12px 20px 13px 26px;
+  background-color: #00769c;
+  width: 387px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  max-width: 100%;
+  white-space: nowrap;
+}
+.seller-account-creation-sectio:hover {
+  background-color: #269cc2;
+}
+.bank-info-section,
+.frame-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.bank-info-section {
+  align-self: stretch;
+  gap: 11px;
+}
+.frame-parent {
+  width: 408px;
+  gap: 32px;
+}
+.bank-sp-registration,
+.bank-sp-registration-inner {
+  display: flex;
+  align-items: flex-start;
+  box-sizing: border-box;
+}
+.bank-sp-registration-inner {
+  width: 816px;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0 20px;
+  max-width: 100%;
+}
+.bank-sp-registration {
+  margin: 0;
+  width: 1440px;
+  background-color: #fff;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px 0 174px;
+  position: relative;
+  gap: 16px;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 800px) {
+  .seller-account-creation-frame {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .e-localhood {
+    font-size: 19px;
+  }
+  .add-your-bank {
+    font-size: 20px;
+  }
+  .frame-parent {
+    gap: 32px;
+  }
+}

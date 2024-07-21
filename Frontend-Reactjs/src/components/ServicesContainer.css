@@ -1,0 +1,90 @@
+.image-child,
+.services-container-child {
+  position: relative;
+  border-radius: 20px;
+  display: none;
+}
+.services-container-child {
+  align-self: stretch;
+  width: 420px;
+  background-color: #d9d9d9;
+  max-width: 100%;
+}
+.image-child {
+  height: 145px;
+  width: 125px;
+  background-color: #ffb72b;
+}
+.image-15-icon {
+  height: 70px;
+  width: 65.9px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.image {
+  border-radius: 20px;
+  background-color: #ffb72b;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 36px 23.09999999999999px 39px 36px;
+  z-index: 2;
+}
+.order1 {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+}
+.filter-dropdown,
+.order1 {
+  position: relative;
+  z-index: 2;
+}
+.filter-button {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 16px 0 17px;
+}
+.completed-orders-text {
+  flex-direction: column;
+  gap: 20px 0;
+}
+.completed-orders-text,
+.order,
+.services-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.order {
+  flex-direction: column;
+  padding: 27px 0 0;
+}
+.services-container {
+  align-self: stretch;
+  border-radius: 20px;
+  background-color: #d9d9d9;
+  flex-direction: row;
+  gap: 0 85px;
+  max-width: 100%;
+  z-index: 1;
+  text-align: left;
+  font-size: 24px;
+  color: #000;
+  font-family: "Inria Sans";
+}
+@media screen and (max-width: 450px) {
+  .filter-dropdown,
+  .order1 {
+    font-size: 19px;
+  }
+  .services-container {
+    flex-wrap: wrap;
+    gap: 0 42px;
+  }
+}

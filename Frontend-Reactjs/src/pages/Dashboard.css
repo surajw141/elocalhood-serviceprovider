@@ -1,0 +1,19 @@
+.dashboard {
+  width: 100%;
+  position: relative;
+  background-color: #dedede;
+  background-image:linear-gradient(rgb(0, 210, 144) 0%, rgb(24, 157, 133) 100%);
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 950px) {
+  .dashboard {
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+  }
+}
